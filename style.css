@@ -38,6 +38,7 @@ main{
 }
 .main-content{
     display: flex;
+    gap: 2rem;
     align-items: center;
     justify-content: space-between;
     height: calc(100vh - 8rem);

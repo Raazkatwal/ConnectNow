@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a3c06e4acc.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <?php include 'links.php' ?>
     <title>ConnectNow</title>
 </head>
 <body>
-    <nav>
-        <div class="nav-contents">
-            <div class="logo">
-                <img src="img/logo.svg" alt="Logo" crossorigin="anonymous">
-            </div>
-        </div>
-    </nav>
+    <?php include 'nav.php' ?>
     <main>
         <div class="main-content">
             <div class="slogan-section">
