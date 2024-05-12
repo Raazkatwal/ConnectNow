@@ -34,29 +34,29 @@ form h1{
     margin-bottom: 3rem;
     text-transform: uppercase;
 }
-input[type=email], input[type=password]{
+input[type=email], input[type=password], input[type=text]{
     width: 30rem;
     height: 2rem;
     font-size: 1.5rem;
     padding: 1rem 1rem 1rem 4rem;
     border-radius: 1rem;
     border: none;
-}
-input[type=email]{
-    background-image: url(img/envelope-solid.svg);
     background-repeat: no-repeat;
     background-position: 3% 50%;
     background-size: 2rem;
+}
+input[type=email]{
+    background-image: url(img/envelope-solid.svg);   
 }
 input[type=password]{
     background-image: url(img/key-solid.svg);
-    background-repeat: no-repeat;
-    background-position: 3% 50%;
-    background-size: 2rem;
+}
+input[type=text]{
+    background-image: url(img/user-solid.svg);
 }
 input[type=submit]{
     width: 35rem;
-    height: 4rem;
+    padding: 1rem 0;
     font-size: 2rem;
     font-weight: 600;
     background-color: var(--accent-color);

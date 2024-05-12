@@ -17,7 +17,7 @@
             <input type="email" name="" id="" placeholder="Enter your Email here">
             <input type="password" name="" id="" placeholder="Enter your Password here">
             <input type="submit" value="Login">
-            <p class="linktext">Dont have an account ? <a href="">Click here.</a></p>
+            <p class="linktext">Dont have an account ? <a href="signup.php">Click here.</a></p>
         </form>
     </main>
 </body>
